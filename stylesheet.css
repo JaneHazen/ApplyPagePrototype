@@ -1,0 +1,389 @@
+.carousel-indicators {
+    bottom: -50px;
+}
+
+.carousel-indicators li {
+    background-color: #ffb3b3;
+}
+
+.backgroundForCheckboxes {
+    background-color: white;
+    opacity: .8;
+}
+
+.submitCheckboxQuiz {
+    float: right;
+    margin-right: 30%;
+}
+
+.surveybox {
+    width: 50%;
+}
+
+.checkBoxGroup {
+    text-align: left;
+    margin-left: 25%;
+}
+
+.carousel-indicators li.active {
+    background-color: #ee7978;
+
+}
+
+.quizTitle {
+    border-bottom: 1px solid #65c5b1;
+    width: 50%;
+    margin-top: 70%;
+    margin-left: 25%;
+}
+
+.quizText {
+    width: 20em;
+    padding-top:2em;
+}
+
+.navbar {
+    background-color: #58688a;
+    margin-bottom: 0;
+
+}
+
+.imageWrapperQuiz {
+    float: left;
+    z-index: 10;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+    color: #65c5b1;
+    background-color: #58688a;
+}
+
+.nav.navbar-nav.navbar-right li.active a {
+    background-color: #ee7978;
+}
+
+.nav.navbar-nav.navbar-right li.active a:hover {
+    color: black;
+}
+
+.btn.btn-default.navbar-btn {
+    background-color: #58688a;
+    color: white;
+    margin-right: 1em;
+    margin-left: .5em;
+}
+
+.btn.btn-default.navbar-btn:hover {
+    background-color: #58688a;
+    color: #65c5b1;
+    margin-right: 1em;
+}
+
+.flexibleTimeCard {
+    width: 15%;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+#callToActionTitle {
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
+
+#callToActionParagraph {
+    position: absolute;
+    top: 16em;
+    width: 50%;
+    left: 5em;
+}
+
+#applyNow {
+    position: absolute;
+    top: 24em;
+    left: 5em;
+
+}
+
+.body {
+    background: #ffffff url('./strokes-BG.PNG') repeat-y;
+}
+
+.heroTextSpan {
+    color: black;
+    font: bold 45px Helvetica, Sans-Serif;
+}
+
+.heroTextSpan.paragraph {
+    font: bold 24px Helvetica, Sans-Serif;
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#villageImg {
+    width: 50%;
+    height: 50em;
+}
+
+.blueTextBox {
+    background-color: #6667ff;
+    border-radius: 4px;
+}
+
+.introText {
+    color: white;
+    padding: 50px;
+    margin-top: 30%;
+}
+
+.btnHover:hover {
+    color: #65c5b1;
+
+}
+
+.lineBreak {
+    padding-bottom: 7%;
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #65c5b1;
+    inset;
+    width: 50%;
+}
+
+.pinkText {
+    color: #ee7978;
+}
+
+.pinkbox {
+    background-color: #ee7978;
+}
+
+.applyNowText {
+    text-align: center;
+    padding: 10px;
+    font: caption;
+    margin-bottom: 3%;
+}
+
+.quizImage {
+    height: 50em;
+    width: 30%;
+    float:left;
+}
+
+.finalRow {
+    padding: 5%;
+}
+
+.differentHeaderText {
+    text-align: center;
+}
+
+.alignItems {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexibleScheduleContainer {
+    margin: auto;
+    box-shadow: 0 0 10px #888888;
+    background-color: white;
+    border-radius: 4px;
+    width: 35%
+}
+
+.timeIcon {
+    height: 5em;
+    width: 5em;
+    padding: 5px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.quizTextWrapper {
+    height: 50%;
+}
+
+.icon {
+    position: relative;
+    top: 1px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    float: left;
+    height: 30px;
+    width: 30px;
+    display: block; /* This is required */
+}
+
+.icon-right {
+    background: url("./assets/icon-arrow-right.png");
+    background-size: cover;
+}
+
+.icon-left {
+    background: url("./assets/icon-arrow-left.png");
+    background-size: cover;
+}
+
+.arrowIcon {
+    align-self: center;
+}
+
+.carouselContainer {
+    width: 100%;
+}
+
+.babySitterCards {
+    width: 100%;
+}
+
+.carousel-inner {
+    box-shadow: 10px 10px 2px #8888;
+    width:98%;
+}
+
+.footerText{
+    color:white;
+    padding-top: 3%;
+}
+
+.footerBand{
+    background-color:#58688a;
+    height:7em;
+}
+
+.fill {
+    flex: 1;
+}
+
+.babySitterIntroText {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding-top: 10%;
+}
+
+.fill img {
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 800px) {
+    #heroJumbotron {
+        height: 40em;
+    }
+
+    .words {
+        position: absolute;
+        padding: 20px;
+    }
+
+    #callToActionTitle {
+        text-align: center;
+        position: initial;
+        top: auto;
+        left: auto;
+
+    }
+
+    .card {
+        width: 10rem;
+    }
+
+    #callToActionParagraph {
+        text-align: center;
+        position: initial;
+        top: auto;
+        left: auto;
+        width: 100%;
+    }
+
+    #applyNow {
+        position: absolute;
+        left: 10em;
+        top: 40em;
+    }
+
+    .flexContainer {
+        flex-direction: column;
+    }
+
+    #villageImg {
+        width: 100%;
+    }
+
+    .introText {
+        margin-bottom: 30%;
+    }
+
+    .flexibleScheduleContainer {
+        width: 40%;
+    }
+
+    .hiddenFromMobile {
+        visibility: hidden;
+    }
+
+    .babySitterIntroText {
+        flex: 0;
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+
+    .carousel-image {
+        width: 30em;
+    }
+
+    .imageWrapperQuiz {
+        width: 0;
+    }
+
+    .checkBoxLabel {
+        font-size: xx-small;
+    }
+
+    .leftSideWrapperQuiz {
+        height: 30em;
+    }
+
+    .wrapperForCheckbox {
+        float: right;
+    }
+
+    .leftSideWrapperQuiz{
+        height:19em;
+        background-color:#ee7978;
+    }
+
+    .icon.icon-right {
+        margin-top:2em;
+    }
+
+    .quizText {
+        padding:0;
+        width:auto;
+        padding-top:2em;
+    }
+}

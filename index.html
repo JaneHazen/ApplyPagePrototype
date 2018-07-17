@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <title>Poppy</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<div>
+    <nav class="navbar navbar-static-top navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="./poppyBrand.PNG">
+            </a>
+            <ul class="nav navbar-nav navbar-right" id="navButtonContainer">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#caregivers">Caregivers</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li>
+                    <button type="button" class="btn btn-default navbar-btn" id="getStarted">Get Started</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="body">
+        <div class="row" id="heroJumbotron">
+            <div class="image">
+                <img id="heroImage" src="./assets/hero3.png" alt=""/>
+                <div class="words">
+                    <h1 id="callToActionTitle"><span class="heroTextSpan">Calling all SAHM's <br/> & crafters</span>
+                    </h1>
+
+                    <p id="callToActionParagraph"><span class="heroTextSpan paragraph">Use your talents caring for kids <br/> to help families in your neighborhood</span>
+                    </p>
+                </div>
+                <div class="heroButton">
+                    <button class="btn btn-primary btnHover" id="applyNow" data-toggle="collapse"
+                            data-target="#applyNowForm">Apply Now
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="applyNowForm" class="collapse">
+            <br>
+            <hr class="lineBreak">
+            <br>
+            <button type="button" class="close" aria-label="Close" data-toggle="collapse" data-target="#applyNowForm">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="applyNowText">
+                <div>We'll ask you a few basic questions to make sure you qualify to be a Poppy in Seattle</div>
+                <div class="pinkText"> Already started an application? Log in here</div>
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="firstNameInput">First Name</label>
+                        <input type="text" class="form-control" id="firstNameInput" placeholder="enter your first name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="lastNameInput">Last Name</label>
+                        <input type="text" class="form-control" id="lastNameInput" placeholder="enter your last name">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="emailInput">Email</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="enter your email">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="passwordInput">Password</label>
+                        <input type="password" class="form-control" id="passwordInput"
+                               placeholder="enter a unique password">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-9">
+                        <label for="addressInput">Address*</label>
+                        <input type="text" class="form-control" id="addressInput" placeholder="enter your address">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="aptInput">Apt.</label>
+                        <input type="text" class="form-control" id="aptInput" placeholder="#">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="birthdayInput">Date of Birth</label>
+                        <div class='input-group date' id='datetimepicker2'>
+                            <input type='date' class="form-control" id="birthdayInput" placeholder="DD/MM/YYYY"/>
+                            <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="phoneInput">Cellphone Number</label>
+                        <input type="tel" class="form-control" id="phoneInput" placeholder="(###)###-####">
+                    </div>
+                </div>
+                <div class="form-row finalRow">
+                    <div class="form-group col-md-9">
+                        <p>*Poppy is currently only available to families in Seattle. Please use the address that you
+                            live at during times you'd be taking Poppy bookings (i.e. your dorm, campus apartment,
+                            house, ect.)</p>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <button type="submit" class="btn btn-primary btnHover">Sign in</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <br>
+        <hr class="lineBreak"  id="about">
+        <br>
+        <div class="row">
+            <div class="flexContainer">
+                <img id="villageImg" src="./assets/village-image.png"/>
+                <div class="blueTextBox">
+                    <div class="introText">
+                        <h1> We connect you to the families you love</h1>
+                        <p>Poppy matches experienced caregivers with trusted neighborhood families looking for
+                            childcare.</p>
+                        <p>No more worrying about logistics like payment, scheduling or vetting so you can focus on the
+                            part you do best- the care!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr class="lineBreak" id="features">
+        <br>
+        <div class="container">
+            <div class="row">
+                <h3 class="differentHeaderText">What makes Poppy different?</h3>
+            </div>
+            <div class="row alignItems">
+                <div class="col-md-3">
+                    <img src="./assets/kid.png"/>
+                </div>
+                <div class="col-md-6 flexibleScheduleContainer">
+                    <div class="fourCardContainer container">
+                        <div class="row">
+                            <div class="card flexibleTimeCard col-md-6">
+                                <div class="card-body">
+                                    <img class="timeIcon" src="./assets/icon-time.png"/>
+                                    <h5 class="card-title">FLEXIBLE SCHEDULE</h5>
+                                    <p class="card-text">Work with families when you have time.</p>
+                                </div>
+                            </div>
+                            <div class="card flexibleTimeCard col-md-6">
+                                <div class="card-body">
+                                    <img class="timeIcon" src="./assets/icon-time.png"/>
+                                    <h5 class="card-title">FLEXIBLE SCHEDULE</h5>
+                                    <p class="card-text">Work with families when you have time.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="card flexibleTimeCard col-md-6">
+                                <div class="card-body">
+                                    <img class="timeIcon" src="./assets/icon-time.png"/>
+                                    <h5 class="card-title">FLEXIBLE SCHEDULE</h5>
+                                    <p class="card-text">Work with families when you have time.</p>
+                                </div>
+                            </div>
+                            <div class="card flexibleTimeCard col-md-6">
+                                <div class="card-body">
+                                    <img class="timeIcon" src="./assets/icon-time.png"/>
+                                    <h5 class="card-title">FLEXIBLE SCHEDULE</h5>
+                                    <p class="card-text">Work with families when you have time.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <img src="./assets/baby.png"/>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr class="lineBreak" id="caregivers">
+        <br>
+        <div class="container">
+            <div class="row">
+                <h3 class="differentHeaderText">Poppies come from everywhere</h3>
+                <p class="differentHeaderText">From stay-at-home moms to highschool students, our Poppies come from
+                    different backgrounds</p>
+            </div>
+            <br/>
+            <br/>
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="flexContainer">
+                            <a class="left arrowIcon" href="#carousel" role="button" data-slide="prev">
+                                <span class="icon icon-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <div class="carouselContainer">
+                                <div id="carousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators hiddenFromMobile">
+                                        <li data-target="#carousel" data-slide-to="0"
+                                            class="active"></li>
+                                        <li data-target="#carousel" data-slide-to="1"></li>
+                                        <li data-target="#carousel" data-slide-to="2"></li>
+                                    </ol>
+
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <div class="card babySitterCards col-md-6">
+                                                <div class="flexContainer">
+                                                    <div class="babySitterIntroText hiddenFromMobile">
+                                                        <h5 class="card-title">Kari McKeen</h5>
+                                                        <p>She's very competent.</p>
+                                                        <p>Kari knows a lot about kids, like how to play Mozart to raise
+                                                            their IQ</p>
+                                                    </div>
+                                                    <div class="fill">
+                                                        <img class="carousel-image" src="./assets/incredibles.jpg"
+                                                             alt="incredibles babysitter"/>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="card babySitterCards col-md-6">
+                                                <div class="flexContainer">
+                                                    <div class="babySitterIntroText hiddenFromMobile">
+                                                        <h5 class="card-title">Mojo Jojo</h5>
+                                                        <p>He might play some power games, but that helps kids learn
+                                                            who's on top.</p>
+                                                        <p>Well versed in French history</p>
+                                                    </div>
+                                                    <div class="fill">
+                                                        <img class="carousel-image" src="./assets/powerpuffgirls.png"
+                                                             alt="powerpuffs babysitter"/>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="card babySitterCards col-md-6">
+                                                <div class="flexContainer">
+                                                    <div class="babySitterIntroText hiddenFromMobile">
+                                                        <h5 class="card-title">Jerrysitter</h5>
+                                                        <p>This is more of a place than a person...</p>
+                                                        <p>But if you like this show you're probably okay with a more
+                                                            abstract example</p>
+                                                    </div>
+                                                    <div class="fill">
+                                                        <img class="carousel-image" src="./assets/rickandmorty.jpg"
+                                                             alt="rick and morty babysitter"/>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="arrowIcon">
+                                <a class="right" href="#carousel" role="button" data-slide="next">
+                                    <span class="icon icon-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr class="lineBreak" id="quiz">
+        <br>
+        <div class="container">
+            <div class="row">
+                <h3 class="differentHeaderText">Which Poppy are you?</h3>
+            </div>
+            <div class="flexContainer">
+                <div class="leftSideWrapperQuiz">
+                    <img class="hiddenFromMobile quizImage hiddenFromMobile" src="./assets/woman-quiz.png"
+                             alt="picture of woman taking a quiz"/>
+                    <div class="quizTextWrapper pinkbox">
+                        <h2 class="quizText">Find out with this short quiz</h2>
+                        <p>If you have talent and passion for working with kids, Poppy is the place for you!</p>
+                    </div>
+
+                </div>
+                <div class="surveybox">
+                    <div class="card wrapperForCheckbox">
+                        <div class="card-body backgroundForCheckboxes">
+                            <h5 class="card-title quizTitle">Sitter Style Quiz</h5>
+                            <br/>
+                            <h6 class="card-subtitle mb-2 text-muted">1. Why do you love working with kids?</h6>
+                            <br/>
+
+                            <form class="form-group checkBoxGroup">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="oneReasonCheckbox">
+                                    <label class="form-check-label checkBoxLabel" for="oneReasonCheckbox">
+                                        One Reason
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="anotherReasonCheckbox">
+                                    <label class="form-check-label checkBoxLabel" for="anotherReasonCheckbox">
+                                        Or Another
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="forFun">
+                                    <label class="form-check-label checkBoxLabel" for="forFun">
+                                        For Fun
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="forEducation">
+                                    <label class="form-check-label checkBoxLabel" for="forEducation">
+                                        For $$
+                                    </label>
+                                </div>
+                                <button id="submitCheckBox" class="btn btn-primary btnHover submitCheckboxQuiz">
+                                    Submit
+                                </button>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img src="./assets/grandma-girl.png"/>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small blue pt-4">
+        <div class="footer-copyright text-center py-3 footerBand">
+            <div class="footerText">Ready to join Poppy?</div>
+        </div>
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h5 class="text-uppercase">About This Site</h5>
+                    <p>To days of inspiration playing hooky making something out of nothing; The need to express to communicate. To loving tension, no pension, to more than one dimension; hating convention hating pretension. The opposite of war isn't peace; it's creation.</p>
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.github.com/janehazen">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://janehazen.github.io/">Github Pages</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/janewillborn">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/">Everything Else</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.github.com/janehazen">Github</a>
+                        </li>
+                        <li>
+                            <a href="https://janehazen.github.io/">Github Pages</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/janewillborn">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/">Everything Else</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
